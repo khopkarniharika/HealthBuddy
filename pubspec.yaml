@@ -1,0 +1,25 @@
+name: heart_rate_monitor
+description: Heart rate monitor with emergency contact system
+publish_to: "none"
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.1
+  shared_preferences: ^2.2.2
+  fl_chart: ^0.65.0
+  permission_handler: ^11.1.0
+  intl: ^0.18.1
+  flutter_secure_storage: ^9.0.0
+  url_launcher: ^6.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
